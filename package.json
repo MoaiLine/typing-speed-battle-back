@@ -40,7 +40,7 @@
     "express": "^4.17.1"
   },
   "lint-staged": {
-    "*.{ts, json}": [
+    "*.{ts}": [
       "npx eslint --fix",
       "npx prettier --write",
       "git add"
